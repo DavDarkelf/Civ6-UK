@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+  <!--Civilizations/Leaders -->
+    <Row Tag="LOC_CIVILIZATION_UK_NAME" Language="en_US">
+      <Text>United Kingdom</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_QUEENVICTORIA_NAME" Language="en_US">
+      <Text>Queen Victoria</Text>
+    </Row>
+   <!--Traits -->
+   <Row Tag="LOC_TRAIT_CIVILIZATION_BRITISHTRADING_NAME" Language="en_US">
+      <Text>British Trading</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BRITISHTRADING_DESCRIPTION" Language="en_US">
+      <Text>British Trading creates trading posts in cities that you found or conquer. If your [ICON_Capital] Capital is in [ICON_TradeRoute] Trade Route range a road is created linking them. When passing through your own cities Trade Routes earn +1 [ICON_Gold] and +1 [ICON_Culture].</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_BANKOFENGLAND_NAME" Language="en_US">
+      <Text>The Bank Of England</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_BANKOFENGLAND_DESCRIPTION" Language="en_US">
+      <Text>The Bank of England is the Central Bank of the United Kingdom. Only able to be built once it provides +8 [ICON_Gold] Gold and +3 [ICON_GreatMerchant] Great Merchant points. The city which build this cannot build a normal Bank.</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_UKMILL_NAME" Language="en_US">
+      <Text>Arkwright Mill</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_UKMILL_DESCRIPTION" Language="en_US">
+      <Text>The Arkwright Mill can only be built once and must be built in an Industrial Zone which is next to a River. Provides +2 [ICON_Production] to all cities within 6 tiles. The city which builds this cannot build a Factory.</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_UKLONGBOWMAN_NAME" Language="en_US">
+      <Text>Longbowman</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_UKLONGBOWMAN_DESCRIPTION" Language="en_US">
+      <Text>The famous English and Welsh Longbowmen</Text>
+    </Row>
+	  <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UKLONGBOWMAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+    	<Text>Both English and Welsh Longbowmen were skilled archers. Often deployed enmasse, especially in the Battle of Agincourt, they could be devestating against their enemies.</Text>
+  	</Row>
+    <Row Tag="LOC_UNIT_UKREDCOAT_NAME" Language="en_US">
+      <Text>British Redcoat</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_UKREDCOAT_DESCRIPTION" Language="en_US">
+      <Text>UK unique unit that replaces the Musketman. +4 [ICON_Strength] Combat Strength when defending. +4 [ICON_Strength] if there is at least one adjacent British Redcoat Infantryman Unit.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UKREDCOAT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+      <Text>The Redcoat was the standard uniform of the British Army from Feburary 1645 when the New Model Army Ordinance was passed. It ceased to be standard issue in August 1914 but is still worn on ceremonial occasions. British Infrantry men were highly trained, especially in Volley fire where ranks of men would take turns to fire. This was only possible to the long length of the Muskets that they used.</Text>
+    </Row>
+	<!--
+    <Row Tag="LOC_ABILITY_UKREDCOAT_NAME">
+      <Text>New Model Army</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UKREDCOAT_DESCRIPTION">
+      <Text>+4 [ICON_Strength] Combat Strength if there is at least one Redcoat next to them</Text>
+    </Row>
+    <Row Tag="LOC_ABILITY_UKREDCOAT_NEIGHBOR_COMBAT_MODIFIER_DESCRIPTION">
+      <Text>+{1_Amount} Combat Strength when next to another Redcoat</Text>
+    </Row>
+	-->
+    <Row Tag="LOC_TRAIT_LEADER_THECITY_NAME" Language="en_US">
+      <Text>Ruler of the British Empire</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_THECITY_DESCRIPTION" Language="en_US">
+      <Text>Gains an additional Economic Government slot.</Text>
+    </Row>
+   <Row Tag="LOC_CIVILIZATION_UK_DESCRIPTION" Language="en_US">
+      <Text>United Kingdom Civilization</Text>
+    </Row>
+   <Row Tag="LOC_LOADING_INFO_LEADER_QUEENVICTORIA" Language="en_US">
+      <Text>
+      Greetings oh Queen Victoria. You are Queen of the United Kingdom and Ruler of the British Empire. Can you grow the British Empire to be the mightiest on Earth, through trade or military might?   
+      </Text>       
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QUEENVICTORIA_TITLE" Language="en_US">
+	    <Text>Queen Victoria</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QUEENVICTORIA_SUBTITLE" Language="en_US">
+	    <Text>Queen of the United Kingdom and Ruler of the British Empire</Text>
+    </Row>			
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_QUEENVICTORIA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+	    <Text>Victoria was Queen of the United Kingdom of Great Britian and Ireland from 20th June 1837 until her death on 22 January 1901</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_UK_CHAPTER_HISTORY_PARA_1" Language="en_US">
+	<Text>The Victorian era was a long period of peace and prosperity. Noted for it's refined sensibilites and highly moralistic behaviour it was still a time of great poverty for the lowest classes. During this period the population almost doubled, apart from Ireland which suffered the Great Famine. It was also a period of great emigranton, mostly to the Unitied States, Canada and Australia.
+  </Text>
+    </Row>
+  </LocalizedText>
+</GameData>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+  <!--Civilizations/Leaders -->
+    <Row Tag="LOC_CIVILIZATION_UK_NAME" Language="en_US">
+      <Text>United Kingdom</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_QUEENVICTORIA_NAME" Language="en_US">
+      <Text>Queen Victoria</Text>
+    </Row>
+   <!--Traits -->
+   <Row Tag="LOC_TRAIT_CIVILIZATION_BRITISHTRADING_NAME" Language="en_US">
+      <Text>British Trading</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_BRITISHTRADING_DESCRIPTION" Language="en_US">
+      <Text>The British Empire promoted trade throughout the world.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_THECITY_NAME" Language="en_US">
+      <Text>Ruler of the British Empire</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_THECITY_DESCRIPTION" Language="en_US">
+      <Text>Gains an additional economic government slot.</Text>
+    </Row>
+   <Row Tag="LOC_BUILDING_BANKOFENGLAND_NAME" Language="en_US">
+      <Text>The Bank Of England</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_BANKOFENGLAND_DESCRIPTION" Language="en_US">
+      <Text>The Bank of England is the Central Bank of the United Kingdom and can only be built in one city</Text>
+    </Row>
+   <Row Tag="LOC_UNIT_UKLONGBOWMAN_NAME" Language="en_US">
+      <Text>Longbowman</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_UKLONGBOWMAN_DESCRIPTION" Language="en_US">
+      <Text>The famous English and Welsh Longbowmen</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_UKREDCOAT_NAME" Language="en_US">
+      <Text>British Redcoat</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_UKREDCOAT_DESCRIPTION" Language="en_US">
+      <Text>UK unique unit that replaces the Musketman.</Text>
+    </Row>
+     <Row Tag="LOC_BUILDING_UKMILL_NAME" Language="en_US">
+      <Text>Arkwright Mill</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_UKMILL_DESCRIPTION" Language="en_US">
+      <Text>The Arkwright Mill is an early factory powered by water and can only be built in one city.</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

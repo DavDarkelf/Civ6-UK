@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_BANKOFENGLAND" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_UKMILL" Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_BANKOFENGLAND" Name="LOC_BUILDING_BANKOFENGLAND_NAME" Description="LOC_BUILDING_BANKOFENGLAND_DESCRIPTION" PrereqTech="TECH_BANKING" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PurchaseYield="YIELD_GOLD" Cost="265" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1" MaxWorldInstances="1" TraitType="TRAIT_CIVILIZATION_BUILDING_BANKOFENGLAND"/>
+		<Row BuildingType="BUILDING_UKMILL" Name="LOC_BUILDING_UKMILL_NAME" Description="LOC_BUILDING_UKMILL_DESCRIPTION" PrereqTech="TECH_MASS_PRODUCTION" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" Cost="250" AdvisorType="ADVISOR_GENERIC" Maintenance="2" RegionalRange="6"
+	   MaxWorldInstances="1" RequiresRiver="true" TraitType="TRAIT_CIVILIZATION_BUILDING_UKMILL"/>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_BANKOFENGLAND" PrereqBuilding="BUILDING_MARKET"/>
+		<Row Building="BUILDING_UKMILL" PrereqBuilding="BUILDING_WORKSHOP"/>
+	</BuildingPrereqs>
+	<Building_YieldChanges>/>
+		<Row BuildingType="BUILDING_BANKOFENGLAND" YieldType="YIELD_GOLD" YieldChange="8"/>
+		<Row BuildingType="BUILDING_UKMILL" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_BANKOFENGLAND" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="3"/>
+    <Row BuildingType="BUILDING_UKMILL" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="2"/>
+  </Building_GreatPersonPoints>
+	<MutuallyExclusiveBuildings>
+	<Row Building="BUILDING_BANK" MutuallyExclusiveBuilding="BUILDING_BANKOFENGLAND"/>
+	<Row Building="BUILDING_BANKOFENGLAND" MutuallyExclusiveBuilding="BUILDING_BANK"/>
+	<Row Building="BUILDING_FACTORY" MutuallyExclusiveBuilding="BUILDING_UKMILL"/>
+	<Row Building="BUILDING_UKMILL" MutuallyExclusiveBuilding="BUILDING_FACTORY"/>
+</MutuallyExclusiveBuildings>
+</GameInfo>

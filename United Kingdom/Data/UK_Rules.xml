@@ -1,0 +1,6 @@
+<GameInfo>
+	<RulesetUnsupportedValues>
+		<!-- Unwanted Major PLayers -->
+		<Row Ruleset="RULESET_STANDARD" Domain="StandardPlayers" Value="LEADER_VICTORIA" />
+	</RulesetUnsupportedValues>
+</GameInfo>

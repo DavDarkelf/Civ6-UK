@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7b0b318b-daae-40bb-8cb6-2fc134ef5999" version="1.0">
+	<Properties>
+		<Name>LOC_MOD_TITLE</Name>
+		<Teaser>LOC_MOD_TEASER</Teaser>
+		<Description>LOC_MOD_DESCRIPTION</Description>
+		<Authors>LOC_MOD_AUTHORS</Authors>
+		<SpecialThanks>LOC_MOD_SPECIAL_THANKS</SpecialThanks>
+	</Properties>
+	<Files>
+		<File>UK.dep</File>
+		<File>Data/UK_Buildings.xml</File>
+		<File>Data/UK_Civilizations.xml</File>
+		<File>Data/UK_Colours.xml</File>
+		<File>Data/UK_Config.xml</File>
+		<File>Data/UK_Config_Text.xml</File>
+		<File>Data/UK_GamePlay.xml</File>
+		<File>Data/UK_Gossip.xml</File>
+		<File>Data/UK_Leaders.xml</File>
+		<File>Data/UK_PlayerColours.xml</File>
+		<File>Data/UK_Rules.xml</File>
+		<File>Data/UK_Text.xml</File>
+		<File>Data/UK_Units.xml</File>
+		<File>Data/Icons/UK_Icons.xml</File>
+		<File>Data/Icons/UK_Icons_Units.xml</File>
+		<File>Art/Icons/Units/UK_Longbowman_Flag_22.dds</File>
+		<File>Art/Icons/Units/UK_Longbowman_Flag_32.dds</File>
+		<File>Art/Icons/Units/UK_Longbowman_Flag_38.dds</File>
+		<File>Art/Icons/Units/UK_Longbowman_Flag_50.dds</File>
+		<File>Art/Icons/Units/UK_Longbowman_Flag_80.dds</File>
+		<File>Art/Icons/Units/UK_Longbowman_Flag_256.dds</File>
+		<File>Art/Screens/unionjack.dds</File>
+		<File>Art/Screens/dip_unionjack.dds</File>
+		<File>Art/Screens/queenvictoria.dds</File>
+	</Files>
+	<!-- Settings -->
+	<Settings>
+		<Icons id="UK_CIV_Icons_Setting">
+			<Items>
+				<File>Data/Icons/UK_Icons.xml</File>
+				<File>Data/Icons/UK_Icons_Units.xml</File>
+			</Items>
+		</Icons>
+		<ModArt id="UK_CIV_Modart">
+			<Items>
+				<File>UK.dep</File>
+			</Items>
+		</ModArt>
+		<Custom id="UK_CIV_Settings">
+			<Items>
+				<File>Data/UK_Config.xml</File>
+				<File>Data/UK_Rules.xml</File>
+			</Items>
+		</Custom>
+		<LocalizedText id="UK_CIV_Settings_Text">
+			<Items>
+				<File>Data/UK_Config_Text.xml</File>
+			</Items>
+		</LocalizedText>
+	</Settings>
+	<!-- End Settings -->
+
+	<!-- Components -->
+	<Components>
+		<Icons id="UK_CIV_Icons_Component">
+			<Items>
+				<File>Data/Icons/UK_Icons.xml</File>
+				<File>Data/Icons/UK_Icons_Units.xml</File>
+			</Items>
+		</Icons>
+		<ModArt id="UK_CIV_Modart_Component">
+			<Items>
+				<File>UK.dep</File>
+			</Items>
+		</ModArt>
+		<UpdateDatabase id="UK_CIV_COMPONENT">
+			<Items>
+				<File>Data/UK_Buildings.xml</File>
+				<File>Data/UK_Civilizations.xml</File>
+				<File>Data/UK_Colours.xml</File>
+				<File>Data/UK_GamePlay.xml</File>
+				<File>Data/UK_Gossip.xml</File>
+				<File>Data/UK_Leaders.xml</File>
+				<File>Data/UK_PlayerColours.xml</File>
+				<File>Data/UK_Units.xml</File>
+			</Items>
+		</UpdateDatabase>
+		<ImportFiles id="UK_CIV_Import">
+			<Items>
+				<!-- Icon Art -->
+				<File>Art/Icons/Units/UK_Longbowman_Flag_22.dds</File>
+				<File>Art/Icons/Units/UK_Longbowman_Flag_32.dds</File>
+				<File>Art/Icons/Units/UK_Longbowman_Flag_38.dds</File>
+				<File>Art/Icons/Units/UK_Longbowman_Flag_50.dds</File>
+				<File>Art/Icons/Units/UK_Longbowman_Flag_80.dds</File>
+				<File>Art/Icons/Units/UK_Longbowman_Flag_256.dds</File>
+				<!-- Loading and Diplomacy Screens -->
+				<File>Art/Screens/unionjack.dds</File>
+				<File>Art/Screens/dip_unionjack.dds</File>
+				<File>Art/Screens/queenvictoria.dds</File>
+			</Items>
+		</ImportFiles>
+		<LocalizedText id="UK_CIV_TEXT">
+			<Items>
+				<File>Data/UK_Text.xml</File>
+			</Items>
+		</LocalizedText>
+	</Components>
+	<!-- Components -->
+	<LocalizedText>
+		<Text id="LOC_MOD_TITLE">
+			<en_US>United Kingdom Civilization</en_US>
+		</Text>
+		<Text id="LOC_MOD_TEASER">
+			<en_US>Play As Queen Victoria of the United Kingdom</en_US>
+		</Text>
+		<Text id="LOC_MOD_DESCRIPTION">
+			<en_US>A full civilization with its own uniques</en_US>
+		</Text>
+		<Text id="LOC_MOD_AUTHORS">
+			<en_US>David Harper</en_US>
+		</Text>
+		<Text id="LOC_MOD_SPECIAL_THANKS">
+			<en_US>Rob Riley, Deliverator, Horem, LeeS, Gedemon</en_US>
+		</Text>
+	</LocalizedText>
+</Mod>

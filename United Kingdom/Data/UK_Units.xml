@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="UNIT_UKLONGBOWMAN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_UKREDCOAT" Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_UKREDCOAT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_UKREDCOAT_DEFEND" Kind="KIND_ABILITY"/>
+	</Types>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_UKLONGBOWMAN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_UKLONGBOWMAN" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_UKLONGBOWMAN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_UKREDCOAT" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_UKREDCOAT" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_UKREDCOAT" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_UKREDCOAT" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<Tags>
+		<Row Tag="CLASS_UKREDCOAT" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_UKREDCOAT_DEFEND" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="ABILITY_UKREDCOAT" Tag="CLASS_UKREDCOAT"/>
+		<Row Type="ABILITY_UKREDCOAT_DEFEND" Tag="CLASS_UKREDCOAT_DEFEND"/>
+		<Row Type="UNIT_UKREDCOAT" Tag="CLASS_UKREDCOAT"/>
+		<Row Type="UNIT_UKREDCOAT" Tag="CLASS_MELEE"/>
+	</TypeTags>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_UKLONGBOWMAN" ReplacesUnitType="UNIT_CROSSBOWMAN"/>
+		<Row CivUniqueUnitType="UNIT_UKREDCOAT" ReplacesUnitType="UNIT_MUSKETMAN"/>
+	</UnitReplaces>
+	<Units>
+		<Row UnitType="UNIT_UKLONGBOWMAN" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_UKLONGBOWMAN_NAME" Description="LOC_UNIT_UKLONGBOWMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="3" Combat="35" RangedCombat="45" Range="2" PrereqTech="TECH_MACHINERY" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS" TraitType="TRAIT_CIVILIZATION_UNIT_UKLONGBOWMAN"/>
+		<Row UnitType="UNIT_UKREDCOAT" BaseMoves="2" Cost="240" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_UKREDCOAT_NAME" Description="LOC_UNIT_UKREDCOAT_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="3" Combat="55" PrereqTech="TECH_GUNPOWDER" MandatoryObsoleteTech="TECH_SATELLITES" TraitType="TRAIT_CIVILIZATION_UNIT_UKREDCOAT"/>
+	</Units>
+	<UnitUpgrades>
+		<Row Unit="UNIT_UKLONGBOWMAN" UpgradeUnit="UNIT_FIELD_CANNON"/>
+		<Row Unit="UNIT_UKREDCOAT" UpgradeUnit="UNIT_INFANTRY"/>
+	</UnitUpgrades>
+	<UnitAbilities>
+    <Row UnitAbilityType="ABILITY_UKREDCOAT" Name="LOC_ABILITY_UKREDCOAT_NAME" Description="LOC_ABILITY_UKREDCOAT_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_UKREDCOAT_DEFEND" Name="LOC_ABILITY_UKREDCOAT_DEFEND_NAME" Description="LOC_ABILITY_UKREDCOAT_DEFEND_DESCRIPTION"/>
+  </UnitAbilities>
+	<UnitAbilityModifiers>
+    <Row>
+      <UnitAbilityType>ABILITY_UKREDCOAT</UnitAbilityType>
+      <ModifierId>UKREDCOAT_NEIGHBOR_COMBAT</ModifierId>
+    </Row>
+		<Row>
+			<UnitAbilityType>ABILITY_UKREDCOAT_DEFEND</UnitAbilityType>
+			<ModifierId>UNIT_REDCOAT_STRONG_WHEN_DEFENDING</ModifierId>
+		</Row>
+  </UnitAbilityModifiers>
+	<Modifiers>
+    <Row>
+      <ModifierId>UKREDCOAT_NEIGHBOR_COMBAT</ModifierId>
+      <ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+      <SubjectRequirementSetId>UKREDCOAT_PLOT_IS_UKREDCOAT_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+		<Row>
+			<ModifierId>UNIT_REDCOAT_STRONG_WHEN_DEFENDING</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>UNIT_REDCOAT_STRONG_WHEN_DEFENDING_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+  </Modifiers>
+	<ModifierArguments>
+    <Row>
+      <ModifierId>UKREDCOAT_NEIGHBOR_COMBAT</ModifierId>
+     <Name>Amount</Name>
+      <Value>4</Name>
+    </Row>
+		<Row>
+			<ModifierId>UNIT_REDCOAT_STRONG_WHEN_DEFENDING</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row> 
+  </ModifierArguments>
+	<RequirementSets>
+    <Row>
+      <RequirementSetId>UKREDCOAT_PLOT_IS_UKREDCOAT_REQUIREMENTS</RequirementSetId>
+      <RequirementSetType>REQUIREMENT_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_REDCOAT_STRONG_WHEN_DEFENDING_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+  </RequirementSets>
+	 <RequirementSetRequirements>
+    <Row>
+      <RequirementSetId>UKREDCOAT_PLOT_IS_UKREDCOAT_REQUIREMENTS</RequirementSetId>
+      <RequirementId>REQUIRES_UNIT_NEXT_TO_UKREDCOAT</RequirementId>
+    </Row>
+		<Row>
+			<RequirementSetId>UNIT_REDCOAT_STRONG_WHEN_DEFENDING_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_REDCOAT_STRONG_WHEN_DEFENDING_REQUIREMENT</RequirementId>
+		</Row>
+  </RequirementSetRequirements>
+  <Requirements>
+	  <Row>
+      <RequirementId>REQUIRES_UNIT_NEXT_TO_UKREDCOAT</RequirementId>
+      <RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+    </Row>
+		<Row>
+			<RequirementId>UNIT_REDCOAT_STRONG_WHEN_DEFENDING_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_IS_ATTACKING</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+  </Requirements>
+	<RequirementArguments>
+    <Row>
+      <RequirementId>REQUIRES_UNIT_NEXT_TO_UKREDCOAT</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_UKREDCOAT</Value>
+    </Row>
+  </RequirementArguments>
+	<ModifierStrings>
+    <Row ModifierId="UKREDCOAT_NEIGHBOR_COMBAT" Context="Preview"  Text="LOC_ABILITY_UKREDCOAT_NEIGHBOR_COMBAT_MODIFIER_DESCRIPTION"/>
+  </ModifierStrings>
+</GameInfo>
+
+
+
+	

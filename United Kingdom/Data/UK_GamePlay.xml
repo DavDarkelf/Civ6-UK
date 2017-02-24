@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+  <LoadingInfo>
+        <!-- BackgroundImage = top left / ForegroundImage = middle right -->
+        <Row LeaderType="LEADER_QUEENVICTORIA"     ForegroundImage="queenvictoria.dds"    BackgroundImage="unionjack.dds"    EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="0"/>
+   </LoadingInfo>
+    <DiplomacyInfo>
+        <Row Type="LEADER_QUEENVICTORIA"     BackgroundImage="dip_unionjack.dds"/>
+    </DiplomacyInfo>
+</GameInfo>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="CIVILIZATION_UK" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_CIVILIZATION_BRITISHTRADING" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_BANKOFENGLAND" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_UKMILL" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_UKLONGBOWMAN" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_UKREDCOAT" Kind="KIND_TRAIT" />
+	</Types>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_UK" Name="LOC_CIVILIZATION_UK_NAME" Description="LOC_CIVILIZATION_UK_DESCRIPTION" Adjective="LOC_CIVILIZATION_UK_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="3" Ethnicity="ETHNICITY_EURO"/>
+	</Civilizations>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_UK" LeaderType="LEADER_QUEENVICTORIA" CapitalName="London"/>
+	</CivilizationLeaders>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_BRITISHTRADING" Name="LOC_TRAIT_CIVILIZATION_BRITISHTRADING_NAME" Description="LOC_TRAIT_CIVILIZATION_BRITISHTRADING_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_BANKOFENGLAND" Name="LOC_BUILDING_BANKOFENGLAND_NAME" Description="LOC_BUILDING_BANKOFENGLAND_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_UKMILL" Name="LOC_BUILDING_UKMILL_NAME" Description="LOC_BUILDING_UKMILL_DESCRIPTION"/>	
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_UKLONGBOWMAN" Name="LOC_UNIT_UKLONGBOWMAN_NAME" Description="LOC_UNIT_UKLONGBOWMAN_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_UKREDCOAT" Name="LOC_UNIT_UKREDCOAT_NAME" Description="LOC_UNIT_UKREDCOAT_DESCRIPTION"/>
+	</Traits>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_UK" TraitType="TRAIT_CIVILIZATION_BRITISHTRADING"/>
+		<Row CivilizationType="CIVILIZATION_UK" TraitType="TRAIT_CIVILIZATION_BUILDING_BANKOFENGLAND"/>
+		<Row CivilizationType="CIVILIZATION_UK" TraitType="TRAIT_CIVILIZATION_UNIT_UKLONGBOWMAN"/>
+		<Row CivilizationType="CIVILIZATION_UK" TraitType="TRAIT_CIVILIZATION_UNIT_UKREDCOAT"/>
+	</CivilizationTraits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_BRITISHTRADING" ModifierId="TRAIT_FREE_ROADS_TO_CAPITAL"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BRITISHTRADING" ModifierId="TRAIT_FREE_TRADING_POSTS"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BRITISHTRADING" ModifierId="TRAIT_UKGOLD_FROM_DOMESTIC_TRADING_POSTS"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BRITISHTRADING" ModifierId="TRAIT_UKCULTURE_FROM_DOMESTIC_TRADING_POSTS"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_UKGOLD_FROM_DOMESTIC_TRADING_POSTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_POST_IN_OWN_CITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UKCULTURE_FROM_DOMESTIC_TRADING_POSTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_POST_IN_OWN_CITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_UKGOLD_FROM_DOMESTIC_TRADING_POSTS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UKGOLD_FROM_DOMESTIC_TRADING_POSTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UKCULTURE_FROM_DOMESTIC_TRADING_POSTS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UKCULTURE_FROM_DOMESTIC_TRADING_POSTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="London"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Manchester"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Birmingham"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="York"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Glasgow"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Liverpool"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Newcastle upon Tyne"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Nottingham"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Sheffield"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Bristol"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Belfast"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Leicester"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Edinburgh"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Brighton and Hove"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Bath"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Cardiff"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Coventry"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Peterborugh"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Hereford"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Preston"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Swansea"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Winchester"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Derby"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Canterbury"/>
+		<Row CivilizationType="CIVILIZATION_UK" CityName="Bradford"/>
+	</CityNames>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_UK" TerrainType="TERRAIN_GRASS" Tier="4"/>
+	</StartBiasTerrains>
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_UK" Tier="5"/>
+	</StartBiasRivers>
+</GameInfo>

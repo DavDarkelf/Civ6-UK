@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>United Kingdom Civilization</Name>
+    <Guid>7b0b318b-daae-40bb-8cb6-2fc134ef5999</Guid>
+    <ProjectGuid>941583c5-2ef7-4a62-9520-43c1ce50e7ff</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Play as Queen Victoria of the United Kingdom</Teaser>
+    <Description>Play as Queen Victoria of the United Kingdom</Description>
+    <Authors>David</Authors>
+    <SpecialThanks>Rob Riley, Deliverator, Horem, LeeS, Gedemom</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>United Kingdom</AssemblyName>
+    <RootNamespace>United Kingdom</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions />]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Units\UK_Longbowman_Flag_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Units\UK_Longbowman_Flag_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Units\UK_Longbowman_Flag_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Units\UK_Longbowman_Flag_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Units\UK_Longbowman_Flag_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Units\UK_Longbowman_Flag_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Screens\dip_unionjack.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Screens\queenvictoria.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Screens\unionjack.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Icons\UK_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Icons\UK_Icons_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\UK_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\UK_Civilizations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\UK_Colours.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\UK_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\UK_Config_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\UK_GamePlay.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\UK_Gossip.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\UK_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\UK_PlayerColours.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\UK_Rules.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\UK_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\UK_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UK.dep">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UK.modinfo">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs\" />
+    <Folder Include="Art\" />
+    <Folder Include="Art\Icons\" />
+    <Folder Include="Art\Icons\Units\" />
+    <Folder Include="Art\Screens\" />
+    <Folder Include="Data\" />
+    <Folder Include="Data\Icons\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

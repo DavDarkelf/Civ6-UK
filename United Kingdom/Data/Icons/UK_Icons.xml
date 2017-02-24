@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+  <IconDefinitions>
+    <Row Name="ICON_CIVILIZATION_UK" Atlas="ICON_ATLAS_CIVILIZATIONS" Index="6"/> <!-- England -->
+    <Row Name="ICON_LEADER_QUEENVICTORIA" Atlas="ICON_ATLAS_LEADERS" Index="19"/>  <!-- Victoria -->
+    <Row Name="ICON_BUILDING_BANKOFENGLAND" Atlas="ICON_ATLAS_BUILDINGS" Index="23"/> <!--Bank-->
+     <Row Name="ICON_BUILDING_UKMILL" Atlas="ICON_ATLAS_BUILDINGS" Index="26"/> <!--Factory -->
+  </IconDefinitions>
+</GameInfo>  

@@ -1,0 +1,22 @@
+Starting AssetCooker...
+Errors deserializing: C:/Users/David/Documents/Firaxis ModBuddy/Civilization VI/United Kingdom/United Kingdom/ArtDefs/FallbackLeaders.artdef
+Errors deserializing: C:/Users/David/Documents/Firaxis ModBuddy/Civilization VI/United Kingdom/United Kingdom/ArtDefs/FallbackLeaders.artdef
+Opened output file: C:\Users\David\Documents\My Games\Sid Meier's Civilization VI\Mods\United Kingdom\ArtDefs/Units.artdef
+Cooking ArtDef: (Cultures.artdef).
+Cooking ArtDef: (Eras.artdef).
+Cooking ArtDef: (CityGenerators.artdef).
+Cooking ArtDef: (Appeal.artdef).
+Cooking ArtDef: (Civilizations.artdef).
+Cooking ArtDef: (Landmarks.artdef).
+Cooking ArtDef: (Districts.artdef).
+Cooking ArtDef: (Buildings.artdef).
+Cooking ArtDef: (StrategicView.artdef).
+Cooking ArtDef: (Terrains.artdef).
+Cooking ArtDef: (Resources.artdef).
+Cooking ArtDef: (Features.artdef).
+Cooking ArtDef: (VFX.artdef).
+Cooking ArtDef: (Units.artdef).
+Cook finished for ArtDef at Path: 'Units.artdef' with Template: 'Units'
+ArtDef cook completed.
+Unable to find a Game Art File in the pantry.
+Unable to auto-generate ArtDef dependency information.  This will need to be done manually.Cook completed in 0.184 seconds

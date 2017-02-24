@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<IconTextureAtlases>
+        <Row Name="ICON_ATLAS_UKLONGBOWMAN_UNIT" IconSize="22" IconsPerRow="4" IconsPerColumn="1" Filename="UK_Longbowman_Flag_22.dds"/>
+        <Row Name="ICON_ATLAS_UKLONGBOWMAN_UNIT" IconSize="32" IconsPerRow="4" IconsPerColumn="1" Filename="UK_Longbowman_Flag_32.dds"/>
+        <Row Name="ICON_ATLAS_UKLONGBOWMAN_UNIT" IconSize="38" IconsPerRow="4" IconsPerColumn="1" Filename="UK_Longbowman_Flag_38.dds"/>
+        <Row Name="ICON_ATLAS_UKLONGBOWMAN_UNIT" IconSize="50" IconsPerRow="4" IconsPerColumn="1" Filename="UK_Longbowman_Flag_50.dds"/>
+        <Row Name="ICON_ATLAS_UKLONGBOWMAN_UNIT" IconSize="80" IconsPerRow="4" IconsPerColumn="1" Filename="UK_Longbowman_Flag_80.dds"/>
+        <Row Name="ICON_ATLAS_UKLONGBOWMAN_UNIT" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="UK_Longbowman_Flag_256.dds"/>		
+    </IconTextureAtlases>
+    <IconDefinitions>
+		<Row Name="ICON_UNIT_UKLONGBOWMAN" Atlas="ICON_ATLAS_UKLONGBOWMAN_UNIT" Index="0"/>
+	  <Row Name="ICON_UNIT_UKLONGBOWMAN_FOW" Atlas="ICON_ATLAS_UKLONGBOWMAN_UNIT" Index="0"/>
+    <Row Name="ICON_UNIT_UKLONGBOWMAN_PORTRAIT" Atlas="ICON_ATLAS_UKLONGBOWMAN_UNIT" Index="0"/>
+    <!-- Redcoat -->
+    <Row Name="ICON_UNIT_UKREDCOAT" Atlas="ICON_ATLAS_UNITS" Index="63"/> 
+    <Row Name="ICON_UNIT_UKREDCOAT_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="63"/>
+    <Row Name="ICON_UNIT_UKREDCOAT_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="61"/> 
+    <Row Name="ICON_UNIT_UKREDCOAT_WHITE" Index="63" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
+	  <Row Name="ICON_UNIT_UKREDCOAT_BLACK" Index="63" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
+	</IconDefinitions>
+</GameInfo>
